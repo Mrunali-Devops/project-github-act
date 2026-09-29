@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Java CI with Maven batch-33
 on:
   workflow_dispatch:
 
