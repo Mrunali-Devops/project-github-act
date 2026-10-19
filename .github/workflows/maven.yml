@@ -1,10 +1,11 @@
-name: Java CI with Maven batch-33
+name: Java CI with Maven batch-30
 on:
-  workflow_dispatch:
+  push:
+    branches: [ "main" ]
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
